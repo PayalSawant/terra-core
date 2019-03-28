@@ -17,6 +17,7 @@ const siteConfig = {
   },
 
   filterSideMenu: true,
+  includeTestEvidence: !process.env.CI && !process.env.USE_SELENIUM_GRID,
 };
 
 module.exports = siteConfig;

@@ -3,6 +3,8 @@ ChangeLog
 
 Unreleased
 ----------
+### Fixed
+* Fixed Placeholder color issue
 
 2.9.0 - (April 2, 2019)
 ------------------

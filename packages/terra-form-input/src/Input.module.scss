@@ -27,6 +27,10 @@
       font-style: var(--terra-form-input-placeholder-font-style);
     }
 
+    &:-ms-input-placeholder { /* IE 10+ */
+      color:var(--terra-form-input-placeholder-color, #70787c);
+    }
+
     &:hover {
       background-color: var(--terra-form-input-hover-background-color, #fff);
       border: var(--terra-form-input-hover-border, 1px solid #dedfe0);
